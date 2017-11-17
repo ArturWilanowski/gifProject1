@@ -20,6 +20,7 @@ public class GifController {
     @GetMapping("/")
     public String home(ModelMap modelMap) {
         modelMap.addAttribute("gifs", gifRepository.allGifs());
+        System.out.println("");
         return "home";
     }
 

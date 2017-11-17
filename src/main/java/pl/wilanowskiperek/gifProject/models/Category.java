@@ -17,6 +17,7 @@ public class Category {
     }
 
     public Category(Integer id, String name) {
+        System.out.println("sdsfs");
         this.id = id;
         this.name = name;
     }
